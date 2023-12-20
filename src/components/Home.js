@@ -4,7 +4,8 @@ import HeroImg from '../assets/heroimage.jpg';
 
 const Home = () => {
     return (
-        <div className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 h-[120vh] md:h-screen  w-full'>
+        // <div className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 h-[120vh] md:h-screen  w-full'>
+        <div className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 pb-10 h-full  w-full'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row '>
 
