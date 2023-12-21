@@ -1,6 +1,8 @@
+
+
 const About = () => {
   return (
-    <div className="pt-20 w-full h-full bg-gradient-to-b from-gray-800 to-black text-white border">
+    <div name="About" className="pt-20 w-full h-full bg-gradient-to-b from-black to-gray-800 text-white">
 
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
 

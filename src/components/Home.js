@@ -1,11 +1,11 @@
 import React from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import HeroImg from '../assets/heroimage.jpg';
+import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
-        // <div className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 h-[120vh] md:h-screen  w-full'>
-        <div className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 pb-10 h-full  w-full'>
+        <div name="Home" className='bg-gradient-to-b from-black via-black to-gray-800  pt-32 pb-10 h-full w-full'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row '>
 
@@ -21,12 +21,12 @@ const Home = () => {
 
                     <div>
 
-                        <button className='group text-white w-fit px-6 py-3 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 font-bold rounded-xl cursor-pointer'>
+                        <Link to="Project" duration={500} smooth className='group text-white w-fit px-6 py-3 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 font-bold rounded-xl cursor-pointer'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdKeyboardArrowRight size={25} className='ml-1'/>
                             </span>
-                        </button>
+                        </Link>
 
                     </div>
 
