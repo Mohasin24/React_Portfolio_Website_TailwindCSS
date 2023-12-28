@@ -3,9 +3,9 @@ const formApi = "https://getform.io/f/1ce4e375-e2e8-4757-aa1c-b9ed00086501";
 
 const Contact = () => {
   return (
-    <div name="Contact" className="w-full h-full bg-gradient-to-b from-black to-gray-800 text-white px-4 py-8 pt-14">
+    <div name="Contact" className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white flex flex-col justify-center items-center">
 
-      <div className="max-w-screen-lg h-full mx-auto flex flex-col justify-center items-center ">
+      <div className="w-full h-full flex flex-col items-center py-14">
         <div className="py-12">
           <p className="text-4xl font-bold border-b-4 border-gray-500">Contact</p>
         </div>

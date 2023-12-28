@@ -67,9 +67,9 @@ const techStack = [
 
 const Experiences = () => {
   return (
-    <div name="Experience" className="pt-24 w-full h-full bg-gradient-to-b from-black to-gray-800 text-white">
-      <div className="max-w-screen-lg mx-auto h-full px-6">
-        <div className="">
+    <div name="Experience" className="pt-10 w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white">
+      <div className="max-w-screen-lg mx-auto h-full px-6 py-14">
+        <div>
           <div className="flex justify-center pb-4">
             <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
               Experiences
