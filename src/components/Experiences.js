@@ -67,9 +67,9 @@ const techStack = [
 
 const Experiences = () => {
   return (
-    <div name="Experience" className="pt-10 w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white">
-      <div className="max-w-screen-lg mx-auto h-full px-6 py-14">
-        <div>
+    <div name="Experience" className="pt-10 w-full min-h-screen bg-gradient-to-b from-black to-gray-800 text-white flex flex-col justify-center items-center">
+      <div className="max-w-screen-lg mx-auto h-full py-14">
+        <div className="px-10 text-justify">
           <div className="flex justify-center pb-4">
             <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
               Experiences
@@ -80,7 +80,7 @@ const Experiences = () => {
           </p>
         </div>
 
-        <div className="w-full grid sm:grid-cols-2 md:grid-cols-5 text-center gap-8 py-8 px-12 sm:px-0">
+        <div className="w-full grid sm:grid-cols-2 md:grid-cols- text-center gap-8 py-8 px-12 sm:px-0">
 
           {techStack.map(({ id, src, title, shadow }) => (
 
