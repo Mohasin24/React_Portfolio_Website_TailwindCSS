@@ -20,9 +20,9 @@ const Home = () => {
 
                 <div className='flex flex-col justify-center h-full mx-auto'>
 
-                    <div className='text-white text-4xl sm:7xl font-bold'>
+                    <div className='text-white text-lg md:text-4xl sm:7xl font-bold'>
                         <p className='mb-2'>Hi,</p> 
-                        <p className='mb-2'>I'm <span className='italic underline underline-offset-4'>MOHASIN PATEL</span>,</p> 
+                        <p className='mb-2'>I'm <span className='italic underline underline-offset-4 whitespace-nowrap'>MOHASIN PATEL</span>,</p> 
                         <p className='text-yellow-400'>
                             {text}
                             <Cursor />
