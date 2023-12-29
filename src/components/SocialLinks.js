@@ -39,11 +39,11 @@ const SocialLinks = () => {
         {socialIcons.map(({ id, child, link }) => (
           <li
             key={id}
-            className="flex justify-center items-center w-40 h-14 pl-4 ml-[-110px] bg-gray-500 text-white hover:ml-[-10px] hover:rounded-md hover:bg-gray-600 duration-300"
+            className="flex justify-center items-center w-40 h-14 pl-6 pr-2 ml-[-120px] bg-gray-500 text-white hover:ml-[-10px] hover:rounded-md hover:bg-gray-600 duration-300"
           >
             <a
               href={link}
-              className="flex justify-around items-center w-full"
+              className="flex justify-between items-center w-full"
               target="_blank"
               rel="noreferrer"
             >
