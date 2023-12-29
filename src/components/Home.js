@@ -30,7 +30,7 @@ const Home = () => {
                     </div>
 
                     <p className=' text-gray-100 py-4 text-justify max-w-md0'>
-                        A enthusiastic and skilled recent graduate with a B.E. in Information Technology, equipped with a diverse range of technical skills including Java (core and advanced), C, C++, Data Structures and Algorithms, and full-stack web development using the MERN stack. Eager to contribute to a dynamic team and apply my proficiency in Java frameworks (Spring, Spring Boot, Spring MVC, Hibernate, Spring Security) and database technologies (SQL, MongoDB) in a challenging software development role.
+                        A recent graduate with a B.E. in Information Technology from Savitribai Phule Pune University. My journey in the world of technology has equipped me with a diverse set of skills that I'm excited to leverage in the software development realm.
                     </p>
 
                     <div>
