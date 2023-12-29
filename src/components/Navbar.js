@@ -37,7 +37,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white p-4 fixed">
+    <div className="flex justify-between items-center w-full h-auto bg-gradient-to-b from-black to-gray-800 text-white p-4 fixed z-10">
       <div>
         <h1 className="text-3xl font-signature cursor-pointer capitalize">
           mohasin patel
@@ -59,7 +59,7 @@ const Navbar = () => {
         ))}
         <li>
           <button
-            className="ml-6 bg-gradient-to-b from-cyan-500 to-blue-500 p-2 rounded-full font-bold"
+            className="ml-6 bg-gradient-to-b from-cyan-500 to-blue-500 p-2 rounded-full font-bold hover:scale-105"
             onClick={downloadCv}
           >
             Download CV
@@ -69,7 +69,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="md:hidden cursor-pointer px-4 z-10"
+        className="md:hidden cursor-pointer px-4 z-50"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
           <li>
             <button
-              className="mt-5 bg-gradient-to-b from-cyan-500 to-blue-500 p-2 rounded-full font-bold text-center"
+              className="mt-5 bg-gradient-to-b from-cyan-500 to-blue-500 p-2 rounded-full font-bold text-cente"
               onClick={downloadCv}
             >
               Download CV
