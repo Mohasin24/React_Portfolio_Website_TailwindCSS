@@ -3,11 +3,12 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import HeroImg from '../assets/heroimage.jpg';
 import { Link } from 'react-scroll';
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { domainList } from '../Data';
 
 const Home = () => {
 
     const [text] = useTypewriter({
-        words : ["Full Stack Java Developer", "Full Stack Web Developer", "MERN Stack Developer"],
+        words : domainList,
         loop : {},
         typeSpeed : 100,
         deleteSpeed : 80
