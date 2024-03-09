@@ -2,7 +2,7 @@ import Home from './components/Home';
 import Nav from './components/Navbar'
 import SocialLinks from './components/SocialLinks';
 import About from './components/About';
-import Project from './components/Project';
+// import Project from './components/Project';
 import Experiences from './components/Experiences';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Home />
       <About />
-      <Project />
+      {/* <Project /> */}
       <Experiences />
 
       <SocialLinks />
