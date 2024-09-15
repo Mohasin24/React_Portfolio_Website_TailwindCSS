@@ -29,13 +29,13 @@ const Project = () => {
                 {
                   demo &&
                   
-                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" href={demo} target="_blank">Demo</a>
+                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" href={demo} target="_blank" rel="noreferrer">Demo</a>
           
                 }
                 
                 {
                   git &&
-                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" target="_blank" href={git}>
+                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" target="_blank" href={git} rel="noreferrer">
                   Code
                 </a>
                 }
