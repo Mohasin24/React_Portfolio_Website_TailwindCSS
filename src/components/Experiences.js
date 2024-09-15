@@ -24,8 +24,8 @@ const Experience = () => {
 
                                         </div>
                                         <div
-                                             className="rounded-md px-5 py-2 w-[50%] h-full bg-gray-800">
-                                             <p className="text-[1.2rem] font-bold text-center">{designation}</p>
+                                             className="rounded-md px-3 md:px-5 py-2 w-[80%] md:w-[50%] h-full bg-gray-800">
+                                             <p className="md:text-[1.2rem] font-bold text-center">{designation}</p>
                                              <p className="font-semibold">
                                                   <span>{organisation}</span>
                                                   <span> - </span>
