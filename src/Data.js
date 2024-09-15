@@ -1,3 +1,9 @@
+import amazon from './assets/projects/amazon.png'
+import brand_page from './assets/projects/brand_page.png'
+import doctor_management from './assets/projects/doctor_management.png'
+import flipkart from './assets/projects/flipkart.png'
+import invoice_management from './assets/projects/invoice_management.png'
+import portfolio from './assets/projects/portfolio.png'
 
 export const domainList = [
      "Full Stack Java Developer",
@@ -44,3 +50,56 @@ export const Education = [
      },
    ];
    
+
+
+export const Experience = [
+  {
+    id:1,
+    designation:"Associate Software Engineer",
+    organisation:"Tech Mahindra Ltd.",
+    type:"Full-Time",
+    date:"March 2024 - Present",
+    location:"Hinjewadi, Pune",
+    skill:"Java, React, TypeScript, SPFx Developement, Microsoft PowerApps, Microsoft SharePoint Developement, Microsoft PowerAutomate"
+  }
+];
+
+// Project data with images
+export const projects = [
+  {
+    id: 1,
+    src: amazon,
+    git:"https://github.com/Mohasin24/Amazon_Clone_SpringBoot_React_Tailwind",
+    demo:null
+  },
+  {
+    id: 2,
+    src: brand_page,
+    git:"https://github.com/Mohasin24/Apple_Brand_Page_ReactJs",
+    demo:null
+  },
+  {
+    id: 3,
+    src: doctor_management,
+    git:"https://github.com/Mohasin24/Doctor_Management_System_Spring_Boot_JSP",
+    demo:null
+  },
+  {
+    id: 4,
+    src: flipkart,
+    git:"https://github.com/Mohasin24/Flipkart_Clone",
+    demo:null
+  },
+  {
+    id: 5,
+    src: invoice_management,
+    git:"https://github.com/Mohasin24/Invoice_Management_System_React_Spring_Boot",
+    demo:null
+  },
+  {
+    id: 6,
+    src: portfolio,
+    git:"https://github.com/Mohasin24/React_Portfolio_Website_TailwindCSS",
+    demo:"https://mohasin-patel.netlify.app/"
+  },
+];

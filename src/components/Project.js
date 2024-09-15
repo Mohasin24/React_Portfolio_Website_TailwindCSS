@@ -1,38 +1,4 @@
-import arrayDestruct from "../assets/projects/arrayDestruct.jpg";
-import installNode from "../assets/projects/installNode.jpg";
-import navbar from "../assets/projects/navbar.jpg";
-import reactParallax from "../assets/projects/reactParallax.jpg";
-import reactSmooth from "../assets/projects/reactSmooth.jpg";
-import reactWeather from "../assets/projects/reactWeather.jpg";
-
-// Project data with images
-const projects = [
-  {
-    id: 1,
-    src: arrayDestruct,
-  },
-  {
-    id: 2,
-    src: installNode,
-  },
-  {
-    id: 3,
-    src: navbar,
-  },
-  {
-    id: 4,
-    src: reactParallax,
-  },
-  {
-    id: 5,
-    src: reactSmooth,
-  },
-  {
-    id: 6,
-    src: reactWeather,
-  },
-];
-
+import { projects } from "../Data";
 // Project component to display projects
 const Project = () => {
   return (
@@ -50,7 +16,7 @@ const Project = () => {
         {/* Grid layout for displaying projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {/* Mapping through project data to generate project cards */}
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src,git,demo}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               {/* Project image with hover effect */}
               <img
@@ -60,12 +26,19 @@ const Project = () => {
               />
               {/* Buttons for Demo and Code with hover effect */}
               <div className="flex justify-evenly items-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg">
+                {
+                  demo &&
+                  
+                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" href={demo} target="_blank">Demo</a>
+          
+                }
+                
+                {
+                  git &&
+                  <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-gray-700 rounded-lg text-center" target="_blank" href={git}>
                   Code
-                </button>
+                </a>
+                }
               </div>
             </div>
           ))}
