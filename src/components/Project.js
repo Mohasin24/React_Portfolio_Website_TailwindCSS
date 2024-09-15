@@ -14,10 +14,13 @@ const Project = () => {
         </div>
 
         {/* Grid layout for displaying projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {/* Mapping through project data to generate project cards */}
-          {projects.map(({ id, src,git,demo}) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+          {projects.map(({ id, title, src,git,demo}) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg bg-slate-900">
+     
+                <div className="font-semibold p-3 text-center">{title}</div>
+             
               {/* Project image with hover effect */}
               <img
                 src={src}

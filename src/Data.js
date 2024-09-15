@@ -68,36 +68,42 @@ export const Experience = [
 export const projects = [
   {
     id: 1,
+    title:"Amazon Clone",
     src: amazon,
     git:"https://github.com/Mohasin24/Amazon_Clone_SpringBoot_React_Tailwind",
     demo:null
   },
   {
     id: 2,
+    title:"Landing Page",
     src: brand_page,
     git:"https://github.com/Mohasin24/Apple_Brand_Page_ReactJs",
     demo:null
   },
   {
     id: 3,
+    title:"Doctor Management System",
     src: doctor_management,
     git:"https://github.com/Mohasin24/Doctor_Management_System_Spring_Boot_JSP",
     demo:null
   },
   {
     id: 4,
+    title:"Flipkart Clone",
     src: flipkart,
     git:"https://github.com/Mohasin24/Flipkart_Clone",
     demo:null
   },
   {
     id: 5,
+    title:"Invoice Management System",
     src: invoice_management,
     git:"https://github.com/Mohasin24/Invoice_Management_System_React_Spring_Boot",
     demo:null
   },
   {
     id: 6,
+    title:"Portfolio Website",
     src: portfolio,
     git:"https://github.com/Mohasin24/React_Portfolio_Website_TailwindCSS",
     demo:"https://mohasin-patel.netlify.app/"
